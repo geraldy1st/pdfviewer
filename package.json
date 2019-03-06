@@ -1,21 +1,23 @@
 {
-  "name": "traversy",
+  "name": "pdfviewer",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "homepage": "https://geraldy1st.github.io/pdfviewer",
-  "directories": {
-    "doc": "docs"
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldy1st/pdfviewer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldy1st/pdfviewer/issues"
   },
   "dependencies": {
     "node-sass": "^4.11.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
